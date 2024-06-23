@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;600;700&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>El Rinconcito de Juan</title>
+    <link rel="shortcut icon" href="imagenes/logo.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light" style="overflow-x: hidden;">
+
+    <!-- Inicio aviso promocion -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Aprovecha</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    ¡Trae a tres amigos y disfruta juntos en EL Rinconcito de Juan! Toma una foto de tu comida,
+                    publícala en redes sociales y etiquétanos. ¡Te daremos un 10% de descuento en tu próxima visita como
+                    agradecimiento por compartir la experiencia!
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="boton-promo btn btn-dark flex-grow d-flex bd-highlight justify-content-center" data-bs-toggle="modal"
+        href="#exampleModalToggle" role="button" style="border-radius: 0%;">Promociones
+    </a>
+    <!-- Fin aviso promocion -->
+
+    <!-- Navbar escritorio -->
+    <nav class="navbar navbar-light bg-light navbar-main d-flex justify-content-around my-3">
+        <img src="imagenes/logo.jpeg" alt="logo restaurante" class="img-fluid logoRestaurante">
+        </a>
+
+        <div class="">
+            <div class="">
+                <ul class="nav justify-content-center" style="list-style-type: none;">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-primary">Reserva</a>
+        </div>
+    </nav>
+    <!-- Fin navbar -->
+
+    <!-- Inicio seccion Hero-->
+    <main class="hero-section">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div id="circle-type"> Comidas Deliciosas</div>
+                    <h1>Tu refugio de Sabores Exquisitos</h1>
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <p>En nuestro restaurante, te invitamos a disfrutar de la auténtica riqueza de la costa
+                                colombiana. Con mariscos frescos y sabores del Caribe, cada plato es una aventura
+                                culinaria. Déjate envolver por la frescura y el sabor únicos que te ofrecemos en cada
+                                bocado. ¡Te esperamos con los brazos abiertos para compartir esta experiencia
+                                inolvidable!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="btns-wrap">
+                        <a href="#" class="btn btn-dark me-2">Menu</a>
+                        <a href="#" class="btn btn-primary me-2">Reserva</a>
+                    </div>
+
+                    <div class="my-2 social-icons" style="display: flex; align-items: center; justify-content: start;">
+                        <a href="#" class="fa fa-brands facebook-logo" style="margin: 0 10px;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    style="width: 24px; height: 24px;">
+                                    <path
+                                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="#" class="fa fa-brands ig-logo" style="margin: 0 10px;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    style="width: 24px; height: 24px;">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="#" class="fa fa-brands twitter-logo" style="margin: 0 10px;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    style="width: 24px; height: 24px;">
+                                    <path
+                                        d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="img-wrap">
+                        <img src="imagenes/dish-2.png" alt="image" class="float-image imagen-comida-overlap">
+                        <img src="imagenes/hero-img-1.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fin seccion Hero-->
+
+    <!-- Inicio seccion comidas especiales -->
+
+    <div class="special-dish-section mb-5 untree_co-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 text-center mx-auto textos-platos">
+                    <h2 class="Heading">Nuestros Platos Especiales</h2>
+                    <p class="excerpt">Explora nuestra selección de platos especiales, donde cada bocado es una
+                        experiencia única. Descubre sabores excepcionales que te cautivarán desde el primer momento.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div style="border-radius: 1.5%;" class="card shadow">
+                        <img src="imagenes/dish-1.png" class="card-img-top img-fluid" alt="imagen comida 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Lumpias a la salsa de Juan </h5>
+                            <p class="card-text">Prueba nuestras lumpias crujientes con relleno fresco y una salsa
+                                especial. ¡Una explosión de sabores costeros en cada bocado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="border-radius: 1.5%;" class="card shadow">
+                        <img src="imagenes/dish-5.png" class="card-img-top img-fluid" alt="imagen comida 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tofu explosivo</h5>
+                            <p class="card-text">Saborea nuestro tofu suave con intensa salsa de chili. ¡Un bocado
+                                picante para los amantes de la comida audaz
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="border-radius: 1.5%;" class="card shadow">
+                        <img src="imagenes/dish-3.png" class="card-img-top img-fluid" alt="imagen comida 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Armonia Costera</h5>
+                            <p class="card-text">Disfruta de pescado fresco de la costa con vegetales salteados. ¡Ligero
+                                y lleno de sabor costero
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div style="border-radius: 1.5%;" class="card shadow">
+                        <img src="imagenes/dish-4.png" class="card-img-top img-fluid" alt="imagen comida 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Despertar Costero</h5>
+                            <p class="card-text">Empieza tu día con energía: huevo suave, pepino fresco y carne molida
+                                sazonada. La combinación perfecta para iniciar bien el día.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin seccion comidas especiales -->
+
+    <!-- Inicio seccion Chefs -->
+    <section class="our-chef-section untree_co-section">
+        <div class="container">
+            <div class="row align-items-center" style="padding-top: 2.5rem;">
+                <div class="col-lg-6 bg-svg" data-aos="fade-up">
+                    <div class="zindex-2">
+                        <h2 class="heading mb-3">Nuestro Chef Experto</h2>
+                        <p class="mb-5 pe-lg-5">Nuestro chef experto, con amplia experiencia en la cocina caribeña, trae
+                            a
+                            cada plato un toque
+                            auténtico y lleno de sabor. Cada creación refleja su pasión por los sabores tropicales y la
+                            excelencia culinaria, asegurando una experiencia gastronómica única y memorable para todos
+                            nuestros
+                            comensales
+                        </p>
+                    </div>
+
+                    <ul class="custom-list list-unstyled mb-5 clearfix">
+                        <li>Graduado de una prestigiosa escuela culinaria reconocida internacionalmente</li>
+                        <li>Poseedor de múltiples premios y reconocimientos por su excelencia culinaria.</li>
+                        <li>Experiencia trabajando en renombrados restaurantes y hoteles de lujo</li>
+                        <li>Especialización en cocina caribeña y habilidades en fusiones innovadoras</li>
+                        <li>Participación en eventos culinarios de alto perfil a nivel nacional e internacional</li>
+                        <li>Comprometido con el uso de ingredientes frescos y locales, apoyando prácticas sostenibles en
+                            la cocina</li>
+                    </ul>
+
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-dark">Menu</a>
+                        <a href="#" class="btn btn-primary">Reserva</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ps-lg-5" data-aos="fade-up" data-aos-delay="100">
+                    <img src="imagenes/chef.png" alt="imagen-chef">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin seccion Chefs -->
+
+
+    <!-- Inicio seccion Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <a href="#" class="footer-logo d-block mb-4">
+                        <img src="imagenes/logo.jpeg" alt="logo-restaurante" class="img-fluid logoRestaurante">
+                    </a>
+                    <p>¡Visítanos en Cartagena, Bolívar, donde la tradición culinaria caribeña cobra vida! Descubre
+                        nuestro oasis gastronómico en la <a href="#">Cra 20 #cl 24-134</a>. Disfruta de sabores
+                        auténticos y una experiencia inolvidable en cada visita.
+                    </p>
+
+                    <div>
+                        <h3 class="footer-heading">Horas de apertura</h3>
+                        <ul class="opening-hours list-unstyled">
+                            <li>
+                                <span>Lunes - Viernes</span>
+                                <span>8:00am hasta las 9:00pm</span>
+                            </li>
+                            <li>
+                                <span>Sabados</span>
+                                <span>8:00am hasta las 6:00pm</span>
+                            </li>
+                            <li>
+                                <span>Domingos</span>
+                                <span>Cerrado</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3 class="footer-heading">Navegacion</h3>
+                            <ul class="list-unstyled links">
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Galeria</a></li>
+                                <li><a href="#">Eventos</a></li>
+                                <li><a href="#">Contacto</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3 class="footer-heading">Platos Especiales</h3>
+                            <ul class="list-unstyled links">
+                                <li><a href="#">Lumpias a la salsa de Juan
+                                    </a></li>
+                                <li><a href="#">Tofu explosivo
+                                    </a></li>
+                                <li><a href="#">Armonia Costera
+                                    </a></li>
+                                <li><a href="#">Despertar Costero
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <h3 class="footer-heading">Siguenos</h3>
+                            <ul class="list-unstyled links social">
+                                <li>
+                                    <a href="#" class="fa fa-brands facebook-logo" style="margin: 0 10px;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                style="width: 24px; height: 24px;">
+                                                <path
+                                                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a href="#" class="fa fa-brands ig-logo" style="margin: 0 10px;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                                style="width: 24px; height: 24px;">
+                                                <path
+                                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li><a href="#" class="fa fa-brands twitter-logo" style="margin: 0 10px;">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                style="width: 24px; height: 24px;">
+                                                <path
+                                                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-6">
+                    El Rinconcito de Juan. Todos los derechos estan reservados © 2024, Diseñado por <a
+                        href="https://github.com/GzJuanKT/">Juan Ramos</a>
+                </div>
+                <div class="col-md-6 text-left text-md-end">
+                    <a href="">Terminos de Servicio</a>
+                    <a href="">Politica de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin seccion Footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
